@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>Login Page</title>
+            <link rel="stylesheet" href="login.css">
+        </head>
+        <body>
+            <div>
+                <h1>Login</h1>
+                <form class="box1" onsubmit="return validateLogin()">
+
+                    <label>Email Address</label>
+                    <input type="text" id="email" placeholder="Enter email">
+                    <small class="error" id="emailError"></small>
+                    <br>
+                    <label>Password</label>
+                    <input type="password" id="password" placeholder="Enter password">
+                    <small class="error" id="passwordError"></small>
+                    <br>
+                    <button type="submit">Login</button>
+                    <p>Do not have an account?<a href="register.html">Register</a>
+                    </p>
+                </form>
+            </div>
+            <script src="login.js"></script>
+        </body>
+    </html>

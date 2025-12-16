@@ -1,0 +1,73 @@
+html,body{
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(109, 113, 207, 0.425);;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div{
+font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: white;
+width: 545px;
+height: 750px;
+ box-shadow: 0 4px 15px;
+ border-radius: 15px;
+
+}
+
+h1{
+    text-align: center;
+    font-size: xx-large;
+}
+
+.box2{
+    background: white;
+    padding: 30px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}   
+
+.box2 label{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+
+.box2 input{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border:solid;
+    border-width: 2px;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.box2 button{
+
+    padding: 12px;
+    width: 106%;
+    background-color: rgb(62, 131, 226);
+    color: white;
+    font-size: larger;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    border-color:rgb(62, 131, 226);
+    border: solid;
+    border-color: rgba(80, 80, 233, 0.849);
+}
+
+.box2 p{
+    text-align: center;
+}
+
+.error{
+    color: red;
+    font-size: 14px;
+    margin-bottom: 7px;
+    display: block;
+}
