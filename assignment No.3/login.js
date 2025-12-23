@@ -1,4 +1,4 @@
-function validateLogin() {
+function validateLogin(){
     let email = document.getElementById("email").value.trim();
     let password = document.getElementById("password").value.trim();
     let emailError = document.getElementById("emailError");
@@ -17,13 +17,13 @@ function validateLogin() {
         emailError.innerHTML = "Email is required!";
         return false;
     } 
-    
+      
     else if (!emailPattern.test(email)) {
         emailError.innerHTML = "Invalid email format!";
         return false;
     }
 
-    if (password === "") {
+    if (password === ""){
         passwordError.innerHTML = "Password is required!";
         return false;
     }
